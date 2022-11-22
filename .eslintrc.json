@@ -19,6 +19,9 @@
     "rules": {
         "import/prefer-default-export": 0,
         "@typescript-eslint/lines-between-class-members": 0,
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "class-methods-use-this": 0,
+        "no-plusplus": 0,
+        "@typescript-eslint/no-loop-func": 0
     }
 }

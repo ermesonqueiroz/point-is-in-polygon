@@ -1,9 +1,9 @@
-import { Point } from '../point/point';
+import { PointData } from '../point';
 
 export class Polygon {
-  public readonly coordinates: Point[][];
+  public readonly coordinates: PointData[];
 
-  constructor(coordinates: Point[][]) {
+  constructor(coordinates: PointData[]) {
     this.coordinates = coordinates;
     Object.freeze(this);
   }
