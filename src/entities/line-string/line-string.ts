@@ -1,9 +1,7 @@
-import { PointData } from '../point/point-data';
-
 export class LineString {
-  private readonly points: PointData[];
+  public readonly points: { x: number; y: number }[];
 
-  constructor(points: PointData[]) {
+  constructor(points: { x: number; y: number }[]) {
     this.points = points;
     Object.freeze(this);
   }
