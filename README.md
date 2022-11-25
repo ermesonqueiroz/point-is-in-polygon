@@ -5,6 +5,8 @@ The `point-is-in-polygon` package is a lightweight package that was developed to
 ## Usage
 
 ```js
+import { Point, Polygon } from 'point-is-in-polygon';
+
 const polygon = new Polygon([
   [
     { x: 200, y: 200 },
